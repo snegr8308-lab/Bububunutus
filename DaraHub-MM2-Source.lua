@@ -16,7 +16,7 @@ Window = WindUI:CreateWindow({
     NewElements = true,
     Title = "Profix Hub MM2",
     Icon = "rbxassetid://137330250139083",
-    Author = "Made by: Pnsdg And Yomka",
+    Author = "Made by Enormus",
     Folder = "DaraHub/Games/Murder-Mystery-2(Normal-Mode)",
     Size = UDim2.fromOffset(580, 490),
     Theme = "Dark",
@@ -25,7 +25,7 @@ Window = WindUI:CreateWindow({
     HideSearchBar = false,
     SideBarWidth = 200,
     OpenButton = {
-        Enabled = false,
+        Enabled = true,
         Scale = 0
     },
 })
@@ -214,12 +214,10 @@ Tabs = {
     Visuals = Window:Tab({ Title = "Visuals", Icon = "camera" }),
     ESP = Window:Tab({ Title = "Esp", Icon = "eye" }),
     Teleport = Window:Tab({ Title = "Teleport", Icon = "navigation" }),
-    Troll = Window:Tab({ Title = "Troll Shit stuffs", Icon = "rbxassetid://6862780932" }),
+    Troll = Window:Tab({ Title = "Troll Shit stuffs", Icon = "shield" }),
     Misc = Window:Tab({ Title = "Misc", Icon = "star" }),
     Utility = Window:Tab({ Title = "Utility", Icon = "wrench" }),
     Settings = Window:Tab({ Title = "Settings", Icon = "settings" }),
-    info = Window:Tab({ Title = "Info", Icon = "info" }),
-    Others = Window:Tab({ Title = "Others", Icon = "https://em-content.zobj.net/source/apple/419/pile-of-poo_1f4a9.png" })
 }
 
 local socialsModule = loadstring(game:HttpGet("https://darahub.pages.dev/Module/info.lua"))()
