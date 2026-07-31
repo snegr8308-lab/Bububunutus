@@ -14,7 +14,7 @@ local WindUI = loadstring(game:HttpGet("https://darahub.pages.dev/Module/Library
 
 Window = WindUI:CreateWindow({
     NewElements = true,
-    Title = "Dara Hub | Murder Mystery 2",
+    Title = "Profix Hub MM2",
     Icon = "rbxassetid://137330250139083",
     Author = "Made by: Pnsdg And Yomka",
     Folder = "DaraHub/Games/Murder-Mystery-2(Normal-Mode)",
@@ -9413,6 +9413,3 @@ Tabs.Settings:Button({
         })
     end
 })
-
-local UniverseScriptsStuff = loadstring(game:HttpGet("https://darahub.pages.dev/Module/More-Scripts.Lua"))()
-UniverseScriptsStuff(Tabs)
