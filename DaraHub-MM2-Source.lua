@@ -25,8 +25,7 @@ Window = WindUI:CreateWindow({
     HideSearchBar = false,
     SideBarWidth = 200,
     Window:EditOpenButton({
-        Enabled = true,
-    })
+        Enabled = true
     },
 })
 WindUI.TransparencyValue = 0.7
